@@ -23,6 +23,20 @@
 	// Configure tool-specific properties.
 	// "customizations": {},
 	"customizations": {
+		"codespaces": {
+			"repositories": {
+				// "your-org/*": {
+				// 	"permissions": "read-all"
+				// },
+				"thisismygitrepo/*": {
+					"permissions": "read-all"
+				}
+				// Or specify specific repositories:
+				// "your-org/specific-repo": {
+				//     "permissions": "read"
+				// }
+			}
+		},
 		"vscode": {
 			"extensions": [
 				"GitHub.copilot",
